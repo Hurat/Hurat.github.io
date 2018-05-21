@@ -10,7 +10,12 @@ header {background-color: rgb(182, 223, 0);
 width:30px;
 display: inline-block;
 }
-#elmo {display: inline-block; margin-left: 110px;margin-top: 20px;}
+#elmo {display: inline-block;
+     margin-left: 110px;
+     margin-top: 20px;
+     height:auto;
+     width: 180px;
+}
 h1 {display: inline-block; text-align: center;}
 #leftnav {
     width:125px;
@@ -25,6 +30,9 @@ p {background-color: darkkhaki;
 footer {
     background-color: cornsilk;
     padding-top: 10px;
+    text-align: center;
+}
+aside {
     text-align: center;
 }
 #rightnav {
